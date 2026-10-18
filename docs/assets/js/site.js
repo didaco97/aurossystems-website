@@ -39,4 +39,18 @@
     });
   }
 
+
+  // gentle parallax on the hero media (skipped for reduced motion)
+  var heroMedia = document.querySelector('.hero-media');
+  if (heroMedia && !reduced) {
+    var ticking = false;
+    var parallax = function () {
+      var y = Math.min(window.scrollY, 900);
+      heroMedia.style.translate = '0 ' + (y * -0.05).toFixed(1) + 'px';
+      ticking = false;
+    };
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(parallax); }
+    }, { passive: true });
+  }
 })();
