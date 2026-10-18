@@ -34,8 +34,12 @@
   if (form) {
     form.addEventListener('submit', function (e) {
       e.preventDefault();
+      var v = function (id) { var el = form.querySelector(id); return el ? el.value.trim() : ''; };
+      var subject = encodeURIComponent('Website enquiry - ' + (v('#f-org') || v('#f-name')));
+      var body = encodeURIComponent('Name: ' + v('#f-name') + '\nSchool/college/business: ' + v('#f-org') + '\nContact: ' + v('#f-contact') + '\n\n' + v('#f-need'));
+      window.location.href = 'mailto:dhirajdahale96@gmail.com?subject=' + subject + '&body=' + body;
       var note = form.querySelector('.form-note');
-      if (note) { note.classList.add('show'); note.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+      if (note) { note.classList.add('show'); }
     });
   }
 

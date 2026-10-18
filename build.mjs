@@ -7,8 +7,8 @@ const SRC = 'src', OUT = 'docs';
 const BRAND = {
   name: 'AurosSystems',
   tagline: 'Management software, made simple.',
-  email: 'hello@example.com', // placeholder until final domain
-  phone: '+91 XXXXX XXXXX', // placeholder
+  email: 'dhirajdahale96@gmail.com',
+  phone: '+91 95183 80879',
   location: 'Maharashtra, India',
 };
 const NAV = [
@@ -80,7 +80,6 @@ ${body}
       </div>
     </div>
     <div class="footer-base">
-      <p>Draft website. Company name and contact details are placeholders until the team finalises them. No client names or numbers are claimed.</p>
       <p>&copy; ${new Date().getFullYear()} ${BRAND.name}</p>
     </div>
   </div>
