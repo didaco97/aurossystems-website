@@ -31,7 +31,7 @@ a { color: var(--teal); }
 .site-header.scrolled { border-bottom-color: var(--line); box-shadow: var(--shadow-sm); }
 .nav-wrap { display: flex; align-items: center; gap: 32px; height: 64px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
-.brand-mark { width: 30px; height: 30px; border-radius: 9px; background: var(--teal); color: #fff; font-family: var(--font-display); font-weight: 600; font-size: 17px; display: inline-flex; align-items: center; justify-content: center; }
+.brand-mark { width: 30px; height: 30px; object-fit: contain; display: inline-block; }
 .brand-name { font-weight: 600; font-size: 15.5px; letter-spacing: -0.01em; }
 .site-nav { display: flex; gap: 4px; margin-left: auto; }
 .site-nav a { position: relative; color: var(--ink-2); text-decoration: none; font-size: 14px; font-weight: 500; padding: 8px 12px; border-radius: 8px; transition: color .15s ease, background .15s ease; }

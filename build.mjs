@@ -42,6 +42,7 @@ function layout({ title, desc, path, body }) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="${root}/assets/img/logo-mark.png">
 <link rel="stylesheet" href="${root}/assets/css/site.css">
 </head>
 <body>
@@ -49,7 +50,7 @@ function layout({ title, desc, path, body }) {
 <header class="site-header" id="site-header">
   <div class="wrap nav-wrap">
     <a class="brand" href="${root}/" aria-label="${BRAND.name} home">
-      <span class="brand-mark">A</span><span class="brand-name">${BRAND.name}</span>
+      <img class="brand-mark" src="${root}/assets/img/logo-mark.png" alt="" width="30" height="30"><span class="brand-name">${BRAND.name}</span>
     </a>
     <nav class="site-nav" id="site-nav" aria-label="Main">
         ${nav}
@@ -67,7 +68,7 @@ ${body}
   <div class="wrap">
     <div class="footer-grid">
       <div>
-        <a class="brand" href="${root}/"><span class="brand-mark">A</span><span class="brand-name">${BRAND.name}</span></a>
+        <a class="brand" href="${root}/"><img class="brand-mark" src="${root}/assets/img/logo-mark.png" alt="" width="30" height="30"><span class="brand-name">${BRAND.name}</span></a>
         <p class="footer-tag">${BRAND.tagline}</p>
       </div>
       <div>
