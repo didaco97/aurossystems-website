@@ -1,4 +1,4 @@
-/* Sahaaj Systems site - design tokens */
+/* AurosSystems site - design tokens */
 :root {
   --ink: #16181d;
   --ink-2: #4b4f57;
@@ -6,9 +6,9 @@
   --line: #e6e6ea;
   --bg: #ffffff;
   --bg-soft: #f7f7f8;
-  --bg-tint: #eef4f2;
-  --teal: #3f7a6d;
-  --teal-bright: #73a89a;
+  --bg-tint: #fcf0eb;
+  --teal: #e35335;
+  --teal-bright: #ef8563;
   --radius: 14px;
   --shadow-sm: 0 1px 2px rgba(16,18,24,.05);
   --shadow-md: 0 8px 24px rgba(16,18,24,.07);
@@ -79,7 +79,7 @@ h3 { font-size: 22px; letter-spacing: -0.015em; }
 .hero-cta { display: flex; gap: 14px; justify-content: center; margin-top: 36px; flex-wrap: wrap; }
 .hero-media { position: relative; margin: 72px auto 0; max-width: 960px; }
 .hero-media .frame { border: 1px solid var(--line); border-radius: 18px; overflow: hidden; box-shadow: var(--shadow-lg); background: #f4f4f6; }
-.hero-media video { width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; background: #eef3f0 url("../img/hero-poster.jpg") center/cover no-repeat; }
+.hero-media video { width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; background: #fcf0eb url("../img/hero-poster.jpg") center/cover no-repeat; }
 
 /* value chips */
 .chips { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
@@ -187,9 +187,9 @@ h3 { font-size: 22px; letter-spacing: -0.015em; }
 .field { margin-bottom: 18px; }
 .field label { display: block; font-size: 14px; font-weight: 500; margin-bottom: 7px; }
 .field input, .field textarea { width: 100%; border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; font: inherit; font-size: 15px; color: var(--ink); background: #fff; transition: border-color .15s ease, box-shadow .15s ease; }
-.field input:focus, .field textarea:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px rgba(63,122,109,.14); }
+.field input:focus, .field textarea:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px rgba(227,83,53,.14); }
 .field textarea { min-height: 120px; resize: vertical; }
-.form-note { display: none; margin-top: 18px; background: var(--bg-tint); border: 1px solid rgba(63,122,109,.25); border-radius: 12px; padding: 16px 18px; font-size: 14.5px; color: var(--ink-2); }
+.form-note { display: none; margin-top: 18px; background: var(--bg-tint); border: 1px solid rgba(227,83,53,.25); border-radius: 12px; padding: 16px 18px; font-size: 14.5px; color: var(--ink-2); }
 .form-note.show { display: block; }
 .contact-side .card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 26px; box-shadow: var(--shadow-sm); margin-bottom: 18px; }
 .contact-side h3 { font-family: var(--font-sans); font-size: 15px; font-weight: 600; margin-bottom: 10px; }
@@ -245,7 +245,7 @@ body { animation: pageIn .3s ease-out; }
 
 /* hover energy */
 .product-card, .chip, .ai-card, .ind-card, .module, .contact-side .card { transition: transform .25s cubic-bezier(.2,.6,.2,1), box-shadow .25s cubic-bezier(.2,.6,.2,1), border-color .25s ease; }
-.product-card:hover, .chip:hover, .ai-card:hover, .ind-card:hover, .module:hover { border-color: rgba(63,122,109,.4); }
+.product-card:hover, .chip:hover, .ai-card:hover, .ind-card:hover, .module:hover { border-color: rgba(227,83,53,.4); }
 .ind-card img { transition: transform .6s cubic-bezier(.2,.6,.2,1); }
 .ind-card:hover img { transform: scale(1.04); }
 .split-media { transition: transform .3s cubic-bezier(.2,.6,.2,1), box-shadow .3s cubic-bezier(.2,.6,.2,1); }

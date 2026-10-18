@@ -1,4 +1,4 @@
-# Sahaaj Systems — website (draft)
+# AurosSystems — website (draft)
 
 Marketing site for an AI-first software services startup: ready management
 products for schools, colleges and small businesses, plus custom software.

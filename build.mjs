@@ -5,9 +5,9 @@ import { join, dirname, relative } from 'node:path';
 
 const SRC = 'src', OUT = 'docs';
 const BRAND = {
-  name: 'Sahaaj Systems', // placeholder - final name undecided
-  tagline: 'Management software, made sahaaj.',
-  email: 'hello@sahaajsystems.in', // placeholder
+  name: 'AurosSystems',
+  tagline: 'Management software, made simple.',
+  email: 'hello@example.com', // placeholder until final domain
   phone: '+91 XXXXX XXXXX', // placeholder
   location: 'Maharashtra, India',
 };
@@ -49,7 +49,7 @@ function layout({ title, desc, path, body }) {
 <header class="site-header" id="site-header">
   <div class="wrap nav-wrap">
     <a class="brand" href="${root}/" aria-label="${BRAND.name} home">
-      <span class="brand-mark">S</span><span class="brand-name">${BRAND.name}</span>
+      <span class="brand-mark">A</span><span class="brand-name">${BRAND.name}</span>
     </a>
     <nav class="site-nav" id="site-nav" aria-label="Main">
         ${nav}
@@ -67,7 +67,7 @@ ${body}
   <div class="wrap">
     <div class="footer-grid">
       <div>
-        <a class="brand" href="${root}/"><span class="brand-mark">S</span><span class="brand-name">${BRAND.name}</span></a>
+        <a class="brand" href="${root}/"><span class="brand-mark">A</span><span class="brand-name">${BRAND.name}</span></a>
         <p class="footer-tag">${BRAND.tagline}</p>
       </div>
       <div>
